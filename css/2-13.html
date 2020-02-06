@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>后代选择器</title>
+    <style>
+        /* #d1 p{
+            background: red;
+        } */
+        #d1 div p{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h3>后代选择器</h3><br>
+    语法：选择器1 选择器2{属性}<br>
+    含义：选择选择器1的后代选择器2的元素<br>
+    <hr>
+    举例：<br>
+    <div id="d1">
+        <p>段落1</p>
+        <div>
+            <p>段落2</p>
+        </div>
+    </div>
+    <p>段落3</p>
+</body>
+</html>
