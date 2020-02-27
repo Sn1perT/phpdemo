@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //求1-100之间所有数字的和
+        var i = 1;
+        var sum=0;
+        while (i<=100) {
+            sum = sum + i;
+            i++;
+        }
+        document.write(sum);
+        document.write("<br>");
+        //求1-100之间能被3整除的数的个数
+        var count = 0;
+        var n = 1;
+        while (n<=100) {
+            if (n%3==0) {
+                count++;
+            }
+            n++;
+        }
+        document.write(count);
+    </script>
+</body>
+</html>
