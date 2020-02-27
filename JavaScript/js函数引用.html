@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js函数引用</title>
+</head>
+<body>
+    含义：一段代码的封装<br>
+    <a href="https://sm.ms/image/5e68NlJcTUBVv3X" target="_blank"><img src="https://i.loli.net/2020/02/27/5e68NlJcTUBVv3X.png" ></a><br>
+    
+    <script>
+        //求任意一个数的平方
+        function fn(n) {
+            var m = n*n;
+            document.write(m+"<br>");
+        }
+        fn(1);
+        fn(5);
+        fn(10);
+
+        //求斜边
+        function qiu(a,b) {
+            var he = a*a+b*b;
+            var c = Math.pow(he,0.5);
+            document.write(c+"<br>");
+        }
+        qiu(3,4);
+        qiu(3,6);
+    </script>
+</body>
+</html>
